@@ -36,7 +36,7 @@
         <!-- AndroidManifest.xml 내 Application 태그 안 -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAO_2qo0HrFqSVU9lZRArwmdr34H2DC21w" />
+            android:value="-" />
 
 
         <activity android:name=".tetrisgame.TetrisActivity" />
