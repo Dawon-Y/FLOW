@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tetris">
+
+    <!-- 테트리스 게임이 들어갈 영역 -->
+    <FrameLayout
+        android:id="@+id/tetris_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top|center_horizontal"
+        android:paddingTop="400dp"
+        android:layout_gravity="top">
+
+        <Button
+            android:id="@+id/btnTetris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnQuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Quit"
+            android:backgroundTint="#8E44AD"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</FrameLayout>
